@@ -41,7 +41,7 @@ export default function Card() {
 
             {/* 2 buttons  */}
             <div className='flex flex-col gap-2 my-6' >
-                <Link to='/view-profile' className='py-2 text-center font-semibold text-green-700 bg-white hover:text-white hover:bg-green-700 rounded-lg border-[1px] border-green-700'>
+                <Link to='/profile' className='py-2 text-center font-semibold text-green-700 bg-white hover:text-white hover:bg-green-700 rounded-lg border-[1px] border-green-700'>
                     <button >
                         Veiw Profile
                     </button>
