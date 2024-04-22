@@ -46,7 +46,9 @@ export default function Card() {
                         Veiw Profile
                     </button>
                 </Link>
-                <button className='py-2 font-semibold text-white bg-green-700 hover:text-green-700 hover:bg-white rounded-lg border-[1px] border-green-700'>Book a Consultation</button>
+                <Link to='/profile' className='py-2 text-center font-semibold text-white bg-green-700 hover:text-green-700 hover:bg-white rounded-lg border-[1px] border-green-700'>
+                    <button >Book a Consultation</button>
+                </Link>
             </div>
         </div>
     )

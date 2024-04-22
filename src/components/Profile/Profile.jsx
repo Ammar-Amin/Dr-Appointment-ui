@@ -29,7 +29,7 @@ export default function Profile() {
                             <p className='text-xl font-semibold'>Dr. Bruce Wills</p>
                             <p>Gynecologist</p>
                             <div>
-                                <span>4.2</span>
+                                <span className='pr-2'>4.2</span>
                                 <i className="ri-star-fill text-yellow-300"></i>
                                 <i className="ri-star-fill text-yellow-300"></i>
                                 <i className="ri-star-fill text-yellow-300"></i>

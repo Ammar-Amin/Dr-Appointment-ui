@@ -1,4 +1,8 @@
 import React from 'react'
+import health from './imgs/health.jpg'
+import hair from './imgs/hair.jpg'
+import immunity from './imgs/immunity.jpg'
+import skin from './imgs/skin.jpg'
 
 export default function Specialize() {
     return (
@@ -10,28 +14,28 @@ export default function Specialize() {
             <div className='p-10 flex flex-wrap gap-4'>
                 <div>
                     <img className='w-[90px] h-[90px] mx-auto object-cover border-[1px] border-slate-300 rounded-xl'
-                        src=''
+                        src={health}
                         alt='img'
                     />
                     <p className='mt-1 text-center'>Women Health</p>
                 </div>
                 <div>
                     <img className='w-[90px] h-[90px] object-cover border-[1px] border-slate-300 rounded-xl'
-                        src=''
+                        src={skin}
                         alt='img'
                     />
                     <p className='mt-1 text-center'>Skin Care</p>
                 </div>
                 <div>
                     <img className='w-[90px] h-[90px] object-cover border-[1px] border-slate-300 rounded-xl'
-                        src=''
+                        src={immunity}
                         alt='img'
                     />
                     <p className='mt-1 text-center'>Immunity</p>
                 </div>
                 <div>
                     <img className='w-[90px] h-[90px] object-cover border-[1px] border-slate-300 rounded-xl'
-                        src=''
+                        src={hair}
                         alt='img'
                     />
                     <p className='mt-1 text-center'>Hair Care</p>

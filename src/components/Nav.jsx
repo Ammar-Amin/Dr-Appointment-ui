@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Nav() {
     return (
@@ -6,7 +7,9 @@ export default function Nav() {
             <div className='w-[55%] flex justify-between items-center'>
                 <h1 className='text-2xl font-semibold tracking-[0.5em] uppercase'>Amrutam</h1>
                 <div>
-                    <span className='mx-4 hover:underline cursor-pointer'>Home</span>
+                    <Link to='/'>
+                        <span className='mx-4 hover:underline cursor-pointer'>Home</span>
+                    </Link>
                     <span className='mx-4 hover:underline cursor-pointer'>Find Doctors</span>
                     <span className='mx-4 hover:underline cursor-pointer'>About us</span>
                 </div>
